@@ -64,4 +64,8 @@ a p{
     clear: both;
     display: none;
   }
+
+  .name {
+    font-size: 90px;
+  }
 }
