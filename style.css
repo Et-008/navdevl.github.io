@@ -29,18 +29,7 @@ p {
 p#position  {
   font-size: 30px;
 }
-/*
-@media screen and (max-width: 600px) {
-  #title_message {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-}
-*/
+
 .navbar {
     /*position: fixed;*/
     top: 180px;
@@ -65,4 +54,14 @@ a p{
 
 .nav>li>a:focus, .nav>li>a:hover { 
   background-color: #FF5252 !important;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #nomobile {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
 }
