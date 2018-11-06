@@ -13,7 +13,7 @@ body{
 }
 
 p {
-    font-family: Inter UI;
+  font-family: Inter UI;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -27,7 +27,7 @@ p {
 }
 
 p#position  {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .navbar {
