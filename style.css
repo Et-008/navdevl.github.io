@@ -56,11 +56,38 @@ a p{
   background-color: #FF5252 !important;
 }
 
-
+@media screen and (min-width: 601px) {
+  #onlymobile {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .container {
     margin-top: 100px;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  .mobile-nav {
+    display: inline-flex;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: inline-flex;
+  }
+
+  li a p {
+    font-size: 1.2em;
+    color: #0097A7
   }
 
   #nomobile {
