@@ -79,6 +79,9 @@ a p{
 
   ul {
     list-style-type: none;
+    margin-block-start: 0em;
+    padding-inline-start: 15px;
+
   }
 
   li {
