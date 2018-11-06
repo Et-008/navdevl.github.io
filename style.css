@@ -59,6 +59,10 @@ a p{
 
 
 @media screen and (max-width: 600px) {
+  .container {
+    margin-top: 100px;
+  }
+
   #nomobile {
     visibility: hidden;
     clear: both;
