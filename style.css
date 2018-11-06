@@ -9,7 +9,7 @@ body{
 }
 
 .container {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 p {
@@ -29,10 +29,22 @@ p {
 p#position  {
   font-size: 30px;
 }
-
+/*
+@media screen and (max-width: 600px) {
+  #title_message {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+*/
 .navbar {
     /*position: fixed;*/
     top: 100px;
+    height: 1%;
     right: -200px;
     z-index: 99;
 }
@@ -45,6 +57,10 @@ p#position  {
 
 a p{
   font-size: 25px;
+}
+
+.nav {
+  display: inline-flex;
 }
 
 .nav>li>a:focus, .nav>li>a:hover { 
