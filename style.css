@@ -29,3 +29,24 @@ p {
 p#position  {
   font-size: 30px;
 }
+
+.navbar {
+    /*position: fixed;*/
+    top: 100px;
+    right: -200px;
+    z-index: 99;
+}
+
+.navbar ul {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+a p{
+  font-size: 25px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover { 
+  background-color: #FF5252 !important;
+}
