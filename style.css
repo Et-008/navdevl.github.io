@@ -57,7 +57,7 @@ a p{
   background-color: #FF5252 !important;
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 801px) {
   #onlymobile {
     visibility: hidden;
     clear: both;
@@ -65,7 +65,7 @@ a p{
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .container {
     margin-top: 100px;
   }
