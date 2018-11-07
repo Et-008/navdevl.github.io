@@ -34,8 +34,6 @@ p#position  {
 .navbar {
     position: fixed;
     margin-top:200px;
-    top: 180px;
-    height: 1%;
     right: -150px;
     z-index: 99;
 }
